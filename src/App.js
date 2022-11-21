@@ -86,7 +86,7 @@ function App() {
               element={isLoggedin ? <Orders /> : ""}
             />
             <Route path="/orders" element={isLoggedin ? <Orders /> : ""} />
-            <Route path="/" element={isLoggedin ? <Orders /> : ""} />
+
             <Route
               path="/orders/:id"
               element={isLoggedin ? <OrderPage /> : ""}
