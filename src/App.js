@@ -81,7 +81,11 @@ function App() {
             </div>
           </div>
           <Routes>
-            {/* {<Route path="/" element={isLoggedin ? <Orders /> : ""} />} */}
+            <Route
+              path="/kafene-Project"
+              element={isLoggedin ? <Orders /> : ""}
+            />
+            <Route path="/orders" element={isLoggedin ? <Orders /> : ""} />
             <Route path="/" element={isLoggedin ? <Orders /> : ""} />
             <Route
               path="/orders/:id"
