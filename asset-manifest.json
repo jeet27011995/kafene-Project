@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/kafene-Project/static/css/main.da0c3098.css",
+    "main.js": "/kafene-Project/static/js/main.72b69231.js",
+    "index.html": "/kafene-Project/index.html",
+    "main.da0c3098.css.map": "/kafene-Project/static/css/main.da0c3098.css.map",
+    "main.72b69231.js.map": "/kafene-Project/static/js/main.72b69231.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.da0c3098.css",
+    "static/js/main.72b69231.js"
+  ]
+}
