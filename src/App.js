@@ -50,13 +50,13 @@ function App() {
                   src="https://raw.githubusercontent.com/pawankumargali/kafene/main/images/logo.png"
                   alt=""
                 />
-                <Link className="link" to={false}>
+                <Link className="link" to="orders">
                   Kafene
                 </Link>
               </div>
             </div>
             <div>
-              <Link className="link" to="/">
+              <Link className="link" to="/orders">
                 Orders
               </Link>
             </div>
