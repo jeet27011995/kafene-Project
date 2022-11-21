@@ -1,13 +1,13 @@
 {
   "files": {
     "main.css": "/kafene-Project/static/css/main.da0c3098.css",
-    "main.js": "/kafene-Project/static/js/main.e5100ae9.js",
+    "main.js": "/kafene-Project/static/js/main.9112b45d.js",
     "index.html": "/kafene-Project/index.html",
     "main.da0c3098.css.map": "/kafene-Project/static/css/main.da0c3098.css.map",
-    "main.e5100ae9.js.map": "/kafene-Project/static/js/main.e5100ae9.js.map"
+    "main.9112b45d.js.map": "/kafene-Project/static/js/main.9112b45d.js.map"
   },
   "entrypoints": [
     "static/css/main.da0c3098.css",
-    "static/js/main.e5100ae9.js"
+    "static/js/main.9112b45d.js"
   ]
 }
