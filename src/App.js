@@ -50,7 +50,7 @@ function App() {
                   src="https://raw.githubusercontent.com/pawankumargali/kafene/main/images/logo.png"
                   alt=""
                 />
-                <Link className="link" to="orders">
+                <Link className="link" to="/orders">
                   Kafene
                 </Link>
               </div>
@@ -86,7 +86,7 @@ function App() {
               element={isLoggedin ? <Orders /> : ""}
             />
             <Route path="/orders" element={isLoggedin ? <Orders /> : ""} />
-
+            <Route path="/" element={isLoggedin ? <Orders /> : ""} />
             <Route
               path="/orders/:id"
               element={isLoggedin ? <OrderPage /> : ""}
@@ -124,7 +124,7 @@ function App() {
               />
             </div>
             <button onClick={updateStates}>Logged in</button>
-            <h3 className="title">Username and password must be same</h3>
+            <h3 className="title">Username and Password must be same</h3>
           </div>
         )}
       </div>
